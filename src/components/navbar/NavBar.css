@@ -1,0 +1,20 @@
+nav{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.item{
+    color: beige;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: burlywood;
+}
+
+.item i{
+    margin-right: .5rem;
+}
