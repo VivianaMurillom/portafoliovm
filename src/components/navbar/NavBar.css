@@ -1,18 +1,21 @@
 nav{
-    background-color: blueviolet;
+    align-items: center;
     display: flex;
     justify-content: space-around;
     padding: 1rem;
 }
 
 .item{
-    color: beige;
+    color: var(--general-black);
     cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-decoration: none;
 }
 
 .item:hover{
-    color: burlywood;
+    color: var(--pv-yellow-color);
+    text-shadow: .5px .5px 1px var(--general-black);
 }
 
 .item i{
