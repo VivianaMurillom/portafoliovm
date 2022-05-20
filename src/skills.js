@@ -30,3 +30,7 @@ let skills=[
         nivel:'Alto'
     }
 ]
+
+export function getAllSkills(){
+    return skills;
+}

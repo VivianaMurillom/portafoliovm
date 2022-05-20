@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import Error404 from './pages/Error404';
 import Skills from './pages/Skills';
 import Studies from './pages/Studies';
+import Study from './pages/Study';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,6 +22,7 @@ root.render(
       <Route path='/projects' element={<Projects/>}></Route>
       <Route path='*' element={<Error404/>}></Route>
       <Route path='/home' element={<Navigate replace to={'/'}/>}></Route>
+      <Route path='/studies/:id' element={<Study/>}></Route>    
     </Routes>
   </BrowserRouter>
 );

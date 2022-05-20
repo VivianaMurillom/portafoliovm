@@ -1,0 +1,30 @@
+.DetailContent{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 1rem;
+}
+
+h2{
+    background: linear-gradient(0deg, rgba(249,248,113,1) 1%, rgba(171,230,127,1) 95%);
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    margin: 1rem auto;
+    filter: drop-shadow(2px 2px #333);
+}
+
+.allInformation{
+    background-color: aquamarine;
+    display: flex;
+    flex-basis: 45%;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: center;
+}
+
+.image{
+    background-color: blue;
+    flex-basis: 45%;
+}

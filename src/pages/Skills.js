@@ -1,11 +1,24 @@
+import './Skills.css'
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
+import {getAllSkills} from '../skills' 
 
 function Skills(){
+
+    const mySkills=getAllSkills();
+
     return(
         <div>
-            <h1>Página Skills del portafolio</h1>
             <Navbar/>
+            <section className="Skills">
+                <div className="skillsContainer">
+                    {mySkills.map(skill=>
+                        <div className="skill" key={skill.id}>
+                            <h4>{skill.nombreSkill}</h4>
+                        </div>                        
+                    )}
+                </div>
+            </section>
             <Footer/>
         </div>
     );

@@ -1,0 +1,51 @@
+.sectionCards{
+    display: flex;
+    height: 100%;
+    margin-left: 1rem;
+    max-width: 700px;
+}
+
+.cardImage{
+    align-items: center;
+    background: rgb(249,248,113);
+    background: linear-gradient(0deg, rgba(249,248,113,1) 1%, rgba(171,230,127,1) 95%);
+    border-radius: 48% 52% 50% 50% / 45% 100% 0% 55%;
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    width: 100%;
+}
+
+.cardStudy{
+    align-items: center;
+    background-color: var(--pv-blue-color);
+    border-radius: 5px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    max-width: 250px;
+    max-height: 250px;
+    min-height: 249px;
+    min-width: 249px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cardStudy h3{
+    color: var(--pv-green-color);
+    font-weight:400;
+    margin-bottom: .5rem;
+}
+
+.cardStudy p{
+    font-weight: lighter;
+    margin-bottom: .5rem;
+}
+
+.link{
+    color: var(--pv-yellow-color);
+    font-weight: 300;
+    text-decoration: none;
+}

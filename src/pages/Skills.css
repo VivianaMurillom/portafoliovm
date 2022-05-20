@@ -1,0 +1,24 @@
+.Skills{
+    display: flex;
+    margin-left: 1rem;
+    max-width: 500px;
+    height: 65vh;
+}
+
+.skillsContainer{
+    background: rgb(249,248,113);
+    background: linear-gradient(0deg, rgba(249,248,113,1) 1%, rgba(171,230,127,1) 95%);
+    border-radius: 70% 30% 51% 49% / 100% 0% 100% 0%;
+    margin: .5rem;
+    width: 100%;
+}
+
+.skill{
+    background-color: var(--pv-blue-color);
+    border-radius: 5px;
+    color: whitesmoke;
+    margin: 2rem auto;
+    max-width: 200px;
+    padding: .2rem;
+    text-align: center;
+}
