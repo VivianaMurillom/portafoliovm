@@ -1,7 +1,7 @@
 import './Studies.css'
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
-import {getAllStudies} from '../studies';
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
+import {getAllStudies} from '../../studiesdb';
 import {Link} from "react-router-dom";
 
 function Studies(){

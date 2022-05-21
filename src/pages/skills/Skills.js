@@ -1,7 +1,7 @@
 import './Skills.css'
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
-import {getAllSkills} from '../skills' 
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
+import {getAllSkills} from '../../skillsdb' 
 
 function Skills(){
 

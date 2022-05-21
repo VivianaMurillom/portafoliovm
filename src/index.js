@@ -3,12 +3,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
-import About from './pages/Aboutme';
-import Projects from './pages/Projects';
-import Error404 from './pages/Error404';
-import Skills from './pages/Skills';
-import Studies from './pages/Studies';
-import Study from './pages/Study';
+import About from './pages/aboutme/Aboutme';
+import Projects from './pages/projects/Projects';
+import Error404 from './pages/error404/Error404';
+import Skills from './pages/skills/Skills';
+import Studies from './pages/studies/Studies';
+import Study from './components/study/Study';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

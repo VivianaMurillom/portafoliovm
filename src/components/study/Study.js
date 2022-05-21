@@ -1,8 +1,8 @@
 import './Study.css'
 import { useParams } from "react-router-dom";
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
-import { getStudy } from "../studies";
+import Navbar from "../navbar/Navbar";
+import Footer from "../footer/Footer";
+import { getStudy } from "../../studiesdb";
 import logoKuepa from './Kuepa.jfif'
 
 function Study(){
