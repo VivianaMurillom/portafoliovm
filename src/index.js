@@ -2,7 +2,7 @@ import './index.css'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import Home from './pages/Home';
+import Home from './pages/home/Home';
 import About from './pages/aboutme/Aboutme';
 import Projects from './pages/projects/Projects';
 import Error404 from './pages/error404/Error404';

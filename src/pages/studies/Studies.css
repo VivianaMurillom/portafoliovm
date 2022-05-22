@@ -1,19 +1,8 @@
-.sectionCards{
-    display: flex;
-    height: 100%;
-    margin-left: 1rem;
-    max-width: 700px;
-}
-
-.cardImage{
-    align-items: center;
-    background: rgb(249,248,113);
-    background: linear-gradient(0deg, rgba(249,248,113,1) 1%, rgba(171,230,127,1) 95%);
-    border-radius: 48% 52% 50% 50% / 45% 100% 0% 55%;
+.content{
     display: flex;
     flex-direction: column;
-    margin: .5rem;
-    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
 }
 
 .cardStudy{
@@ -36,6 +25,7 @@
 .cardStudy h3{
     color: var(--pv-green-color);
     font-weight:400;
+    font-size: 1.5rem;
     margin-bottom: .5rem;
 }
 
@@ -48,4 +38,70 @@
     color: var(--pv-yellow-color);
     font-weight: 300;
     text-decoration: none;
+}
+
+.text{
+    text-align: left;
+}
+
+.text p{
+    margin: 1rem;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+    .content{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .container{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .text{
+        max-width: 300px;
+    }
+}
+
+/*Resolución de medias (equipos de escritorio)*/
+@media screen and (min-width: 1024px) {
+
+    .container{
+        flex-direction: column-reverse;
+        min-width: 800px;
+    }
+    .cardsInformation{
+        display: flex;
+    }
+
+    .cardStudy{
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        max-width: 300px;
+        max-height: 300px;
+        min-height: 299px;
+        min-width: 299px;
+    }
+
+    .cardStudy h3{
+        font-size: 2rem;
+    }
+
+    .cardStudy p{
+        font-size: 1.5rem;
+    }
+
+    .link{
+        font-size: 1.5rem;
+    }
+
+    .text{
+        min-width: 500px;
+        max-width: 600px;
+        margin: 0;
+    }
+
 }

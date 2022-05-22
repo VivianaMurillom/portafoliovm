@@ -2,14 +2,14 @@
     display: flex;
     margin-left: 1rem;
     max-width: 500px;
-    height: 65vh;
+    height: 100%;
 }
 
 .skillsContainer{
     background: rgb(249,248,113);
     background: linear-gradient(0deg, rgba(249,248,113,1) 1%, rgba(171,230,127,1) 95%);
     border-radius: 70% 30% 51% 49% / 100% 0% 100% 0%;
-    margin: .5rem;
+    margin: 1rem;
     width: 100%;
 }
 

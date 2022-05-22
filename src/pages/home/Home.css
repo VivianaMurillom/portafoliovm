@@ -1,0 +1,52 @@
+.content{
+    display: flex;
+    height: 100%;
+    margin: 1rem;
+    min-height: 100px;
+}
+
+.text{
+    text-align: center;
+}
+
+.flower{
+    display: none;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+    .content{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .text{
+        max-width: 250px;
+    }
+
+    .flower{
+        display: initial;
+    }
+
+    .myflower{
+        max-width: 250px;
+    }
+}
+
+/*Resolución de medias (equipos de escritorio)*/
+@media screen and (min-width: 1024px) {
+    .content{
+        align-items: center;
+        flex-direction: column;
+        min-height: 380px;
+    }
+
+    .text{
+        margin: 4rem;
+        max-width: 600px;
+    }
+
+    .myflower{
+        max-width: 200px;
+    }
+}
