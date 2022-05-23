@@ -1,0 +1,33 @@
+.firstPart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.number{
+    font-size: 5rem;
+}
+
+.SecondPart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.buttonHome{
+    background-color: var(--pv-yellow-color);
+    color: var(--pv-general-black);
+    margin: 1rem auto;
+    padding: .5rem;
+    text-decoration: none;
+    width: 150px;
+}
+
+.buttonHome i{
+    margin-left: .5rem;
+}
+
+.buttonHome:hover{
+    background-color: var(--pv-green-color);
+}
+

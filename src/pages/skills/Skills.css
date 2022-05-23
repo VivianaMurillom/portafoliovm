@@ -5,14 +5,6 @@
     height: 100%;
 }
 
-.skillsContainer{
-    background: rgb(249,248,113);
-    background: linear-gradient(0deg, rgba(249,248,113,1) 1%, rgba(171,230,127,1) 95%);
-    border-radius: 70% 30% 51% 49% / 100% 0% 100% 0%;
-    margin: 1rem;
-    width: 100%;
-}
-
 .skill{
     background-color: var(--pv-blue-color);
     border-radius: 5px;
@@ -21,4 +13,49 @@
     max-width: 200px;
     padding: .2rem;
     text-align: center;
+}
+
+.skill h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+
+    .Skills{
+        margin: .5rem auto;
+    }
+
+    .cardImageLeft{
+        display: none;
+    }
+}
+
+/*Resolución de medias (equipos de escritorio)*/
+@media screen and (min-width: 1024px) {
+
+    .Skills{
+        max-width: 1000px;
+    }
+
+    .skillsContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .spaceSkills{
+        display: flex;
+    }
+
+    .skill{
+        margin: 1rem;
+        padding: .5rem;
+    }
+
+    .cardImageLeft{
+        display: flex;
+    }
 }

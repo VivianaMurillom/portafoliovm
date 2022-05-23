@@ -1,0 +1,36 @@
+.stillWorking{
+    display: flex;
+    flex-direction: column;
+}
+
+.stillWorking img{
+    max-width: 200px;
+    margin: 1rem auto;
+}
+
+.stillWorking p{
+    text-align: center;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+    .stillWorking img{
+        max-width: 300px;
+    }
+
+    .stillWorking p{
+        margin: .5rem auto;
+        max-width: 250px;
+    }
+}
+
+/*Resolución de medias (equipos de escritorio)*/
+@media screen and (min-width: 1024px) {
+
+    .stillWorking{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 1000px;
+    }
+}

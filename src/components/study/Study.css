@@ -14,7 +14,32 @@
     text-align: center;
 }
 
-.image{
-    background-color: blue;
-    flex-basis: 45%;
+.firstTittle, .SecondTittle{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.contentDivisor{
+    border: 1px solid var(--pv-blue-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.contentDivisor span{
+    font-weight: bold;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+
+    .space{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+
 }

@@ -6,6 +6,10 @@
 }
 
 .text{
+    padding: 1rem;
+}
+
+.text p, .text h1{
     text-align: center;
 }
 
@@ -15,21 +19,18 @@
 
 /*Resolución de tablet*/
 @media screen and (min-width: 768px) {
-    .content{
-        flex-direction: row;
-        justify-content: space-around;
-    }
 
     .text{
-        max-width: 250px;
+        max-width: 150px;
     }
 
     .flower{
         display: initial;
+        max-width: 200px;
     }
 
     .myflower{
-        max-width: 250px;
+        max-width: 150px;
     }
 }
 

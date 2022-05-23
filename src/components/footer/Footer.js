@@ -13,10 +13,9 @@ function Footer(){
                 <p className='version'>Versión N° 1 de 2022</p>
             </div>
             <div className='rightFooter'>
-                <p className='social'>Social</p>
                 <div className='links'>
-                    <a href="https://www.linkedin.com/in/viviana-murillo/" target="_blank" rel='noreferrer'><i class="fa-brands fa-linkedin fa-3x"></i></a>
-                    <a href="https://github.com/VivianaMurillom" target="_blank" rel='noreferrer'><i class="fa-brands fa-github-square fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/viviana-murillo/" target="_blank" rel='noreferrer'><i class="fa-brands fa-linkedin fa-4x"></i></a>
+                    <a href="https://github.com/VivianaMurillom" target="_blank" rel='noreferrer'><i class="fa-brands fa-github-square fa-4x"></i></a>
                 </div>
             </div>
         </footer>
