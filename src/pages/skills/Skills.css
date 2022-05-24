@@ -1,7 +1,7 @@
 .Skills{
     display: flex;
     margin-left: 1rem;
-    max-width: 500px;
+    max-width: 400px;
     height: 100%;
 }
 
@@ -9,10 +9,16 @@
     background-color: var(--pv-blue-color);
     border-radius: 5px;
     color: whitesmoke;
-    margin: 2rem auto;
+    margin: 3rem auto;
     max-width: 200px;
+    max-height: 0px;
     padding: .2rem;
     text-align: center;
+    transition: all 1s ease;
+}
+
+.skill:hover{
+    max-height: 70px;
 }
 
 .skill h4{
@@ -35,6 +41,12 @@
 /*Resolución de medias (equipos de escritorio)*/
 @media screen and (min-width: 1024px) {
 
+    .spaceSkills{
+        display: flex;
+        justify-content: space-around;
+        max-width: 1000px;
+    }
+
     .Skills{
         max-width: 1000px;
     }
@@ -46,10 +58,6 @@
         justify-content: center;
     }
 
-    .spaceSkills{
-        display: flex;
-    }
-
     .skill{
         margin: 1rem;
         padding: .5rem;
@@ -57,5 +65,7 @@
 
     .cardImageLeft{
         display: flex;
+        margin-right: 1rem;
+        min-width: 250px;
     }
 }

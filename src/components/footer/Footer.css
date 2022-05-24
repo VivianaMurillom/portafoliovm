@@ -22,9 +22,17 @@ footer{
     margin: 1rem;
 }
 
+.links a:hover{
+    color: var(--pv-yellow-color);
+}
+
 .social{
     font-size: 1rem;
     font-weight: 500;
+}
+
+.thanks span, .version span{
+    color: var(--pv-yellow-color);
 }
 
 /*Resolución de tablet*/

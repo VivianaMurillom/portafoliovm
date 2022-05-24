@@ -28,6 +28,11 @@ let skills=[
         id:6,
         nombreSkill:'Microsoft Office',
         nivel:'Alto'
+    },
+    {
+        id:7,
+        nombreSkill:'Bootstrap',
+        nivel:'Bajo'
     }
 ]
 

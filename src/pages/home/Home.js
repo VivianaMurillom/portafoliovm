@@ -1,13 +1,13 @@
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import './Home.css'
-import flower from './flower_container.svg'
+import flower from './flower_container.png'
 
 function Home(){
     return(
         <div>
             <Navbar/>
-            <section className="content">
+            <section className="contentHome">
                 <div className="text">
                     <p>Hola a todos, soy</p>
                     <h1>Viviana Murillo</h1>

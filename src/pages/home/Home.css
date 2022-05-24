@@ -1,4 +1,4 @@
-.content{
+.contentHome{
     display: flex;
     height: 100%;
     margin: 1rem;
@@ -13,24 +13,45 @@
     text-align: center;
 }
 
-.flower{
-    display: none;
+.myflower{
+    animation: flowRotate 20s ease 1s infinite normal;
+    max-width: 200px;
+}
+
+@keyframes flowRotate {
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(135deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
 }
 
 /*Resolución de tablet*/
 @media screen and (min-width: 768px) {
+
+    .contentHome{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
 
     .text{
         max-width: 150px;
     }
 
     .flower{
-        display: initial;
-        max-width: 200px;
+        align-items: center;
+        display: flex;
     }
 
     .myflower{
-        max-width: 150px;
+        max-width: 300px;
     }
 }
 
@@ -43,11 +64,14 @@
     }
 
     .text{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
         margin: 4rem;
         max-width: 600px;
     }
 
     .myflower{
-        max-width: 200px;
+        max-width: 500px;
     }
 }

@@ -1,4 +1,3 @@
-import kuepa from './components/study/Kuepa.jfif';
 
 let studies=[
     {
@@ -8,7 +7,6 @@ let studies=[
         titulo: 'Técnico laboral en Procesamiento y Digitación de datos',
         fechaInicio: 'Enero de 2022',
         fechaFinalizacion: 'Agosto de 2022',
-        imagen: {kuepa}
     },
     {
         id:2,

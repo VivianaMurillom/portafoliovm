@@ -10,7 +10,7 @@ function About(){
                 <h1 className="title">Sobre Mí</h1>
                 <div className="subContainer">
                     <div className="textContainer">
-                        <p>Soy una persona enfocada al aprendizaje continuo, por lo cual mis habilidades van enfocadas a la mejora continua, busco mejorar los diferentes aspectos de mi vida tambien impactando de manera benéfica con mi entorno.</p>
+                        <p>Soy una persona enfocada al aprendizaje continuo, por lo cual mis habilidades van enfocadas a la mejora continua, busco mejorar en los diferentes aspectos de mi vida tambien impactando de manera benéfica con mi entorno.</p>
                     </div>
                     <div className="cardImageLeft"></div>
                 </div>

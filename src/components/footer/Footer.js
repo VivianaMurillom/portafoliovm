@@ -9,8 +9,8 @@ function Footer(){
                 <img src={logoTech} className='logoTech' alt='Logo de Tech Power'></img>
             </div>
             <div className='centerFooter'>
-                <p className='thanks'>Con cariño para el mundo</p>
-                <p className='version'>Versión N° 1 de 2022</p>
+                <p className='thanks'>Con <span>cariño</span> para el mundo</p>
+                <p className='version'>Versión N° <span>1</span> de <span>2022</span></p>
             </div>
             <div className='rightFooter'>
                 <div className='links'>

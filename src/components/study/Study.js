@@ -25,7 +25,7 @@ function Study(){
                             <span>Fecha de finalización:</span>
                             <p>{theItem.fechaFinalizacion}</p>
                         </div>
-                        <div className='cardImageLeft'></div>
+                        <div className='cardImage'></div>
                     </div>
                 </div>
             </section>
