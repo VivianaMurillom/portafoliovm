@@ -14,7 +14,7 @@ function Error404(){
             </div>
             <div className="SecondPart">
                 <p>Te invitamos a volver al inicio...</p>
-                <Link to='/home' className='buttonHome'>A inicio<i class="fa-solid fa-house"></i></Link>
+                <Link to='/portafoliovm/home' className='buttonHome'>A inicio<i class="fa-solid fa-house"></i></Link>
             </div>
             <Footer/>
         </div>

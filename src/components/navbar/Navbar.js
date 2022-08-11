@@ -6,7 +6,7 @@ function Navbar(){
     return(
         <nav>
 
-            <Link to='/' className='item'>
+            <Link to='/portafoliovm/' className='item'>
                 <img src={logo} className='my-logo' alt='Logo Viviana'></img>
             </Link>
 
@@ -16,10 +16,10 @@ function Navbar(){
             </label>
 
             <ul>
-                <li><Link to='/about-me' className='item'><i class="fa-solid fa-cat"></i>Sobre Mí</Link></li>
-                <li> <Link to='/studies' className='item'><i class="fa-solid fa-graduation-cap"></i>Estudios</Link></li>
-                <li><Link to='/skills' className='item'><i class="fa-solid fa-code"></i>Habilidades</Link></li>
-                <li><Link to='/projects' className='item'><i class="fa-solid fa-terminal"></i>Proyectos</Link></li>
+                <li><Link to='/portafoliovm/about-me' className='item'><i class="fa-solid fa-cat"></i>Sobre Mí</Link></li>
+                <li> <Link to='/portafoliovm/studies' className='item'><i class="fa-solid fa-graduation-cap"></i>Estudios</Link></li>
+                <li><Link to='/portafoliovm/skills' className='item'><i class="fa-solid fa-code"></i>Habilidades</Link></li>
+                <li><Link to='/portafoliovm/projects' className='item'><i class="fa-solid fa-terminal"></i>Proyectos</Link></li>
             </ul>
         </nav>
     );
